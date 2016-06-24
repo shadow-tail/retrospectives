@@ -16,6 +16,13 @@ module.exports = function(grunt) {
       	src: ['*.js', '!Gruntfile.js']
       },
     },
+    sass: {
+      dist: {
+        files: {
+          'src/css/main.css' : 'src/sass/main.scss'
+        }
+      }
+    },
     watch: {
       options: {
         livereload: true
@@ -24,6 +31,10 @@ module.exports = function(grunt) {
         files: ['**/*.js'],
         tasks: ['jshint']
       },
+      css: {
+        files: '**/*.scss',
+        tasks: ['sass']
+      }
     },
   });
 
@@ -31,7 +42,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['jshint']);
-  grunt.registerTask('dev', ['jshint']);
+  grunt.registerTask('default', ['sass', 'jshint']);
+  grunt.registerTask('dev', ['sass', 'jshint']);
 
 };
