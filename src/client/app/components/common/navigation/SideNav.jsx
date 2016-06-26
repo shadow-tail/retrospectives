@@ -10,7 +10,7 @@ class SideNav extends React.Component {
         <button className="btn btn-primary">How it Works</button>
         <button className="btn btn-primary">Resources</button>
 
-        <p className="nav-title">SHADOWTAIL</p>
+        <p className="nav-title">COMPANY</p>
         <button className="btn btn-primary">About</button>
         <button className="btn btn-primary">Contact</button>
       </div>

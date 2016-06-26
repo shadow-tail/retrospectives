@@ -1,23 +1,6 @@
 @import "variables";
 @import "fonts";
 
-button, .btn, .btn-primary {
-  background-color: $gray-light;
-  background-image: linear-gradient($gray-light, $gray-medium);
-  border: 1px solid $gray-medium;
-  border-radius: 2px;
-  box-shadow: 0 3px 0 0 $gray-dark;
-  &:hover {
-    border: 1px solid $gray-medium;
-    color: $black;
-  }
-  &:active, :focus {
-    background-color: $gray-medium;
-    border: 1px solid $gray-light;
-    color: $white;
-	}
-}
-
 #header {
   height: 5.5%;
   background: $purple-dark;
@@ -31,5 +14,37 @@ button, .btn, .btn-primary {
       color: $purple-light;
       cursor: pointer;
     }
+  }
+}
+
+#nav-bar {
+  color: $gray-dark;
+  .nav-title {
+  	font-family: novecentoBold;
+  	font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  button {
+  	font-family: newsCycleBold;
+    font-size: 1.2em;
+    margin: 0.5em auto;
+    width: 100%;
+    background-color: $pink-lightest;
+    background-image: linear-gradient($pink-lightest, $pink-light);
+    border: 1px solid $pink-darkest;
+    border-radius: 2px;
+    box-shadow: 0 3px 0 0 $pink-dark;
+    &:hover {
+      border: 1px solid $gray-medium;
+      color: $black;
+    }
+    &:active, :focus {
+      background-color: $gray-medium;
+      border: 1px solid $gray-light;
+      color: $white;
+  	}
+
   }
 }
