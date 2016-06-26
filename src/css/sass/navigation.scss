@@ -35,9 +35,12 @@
     background-image: linear-gradient($pink-lightest, $pink-light);
     border: 1px solid $pink-darkest;
     border-radius: 2px;
-    box-shadow: 0 3px 0 0 $pink-dark;
+    box-shadow: 0 2px 0 0 $pink-dark;
     &:hover {
-      border: 1px solid $gray-medium;
+      background-color: $purple-lightest;
+      border: 1px solid $purple-darkest;
+      box-shadow: 0 2px 0 0 $purple-dark;
+      opacity: 0.5;
       color: $black;
     }
     &:active, :focus {
