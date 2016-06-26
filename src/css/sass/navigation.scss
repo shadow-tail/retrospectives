@@ -3,7 +3,7 @@
 
 button, .btn, .btn-primary {
   background-color: $gray-light;
-  background-image: linear-gradient($gray-light,$gray-medium);
+  background-image: linear-gradient($gray-light, $gray-medium);
   border: 1px solid $gray-medium;
   border-radius: 2px;
   box-shadow: 0 3px 0 0 $gray-dark;
@@ -15,7 +15,21 @@ button, .btn, .btn-primary {
     background-color: $gray-medium;
     border: 1px solid $gray-light;
     color: $white;
-  }
+	}
 }
 
-
+#header {
+  height: 5.5%;
+  background: $purple-dark;
+  padding: 0.75em 1.5em;
+  border-bottom: 1px solid $purple-darkest;
+  box-shadow: 0px 1px 5px 0px $purple-darkest;
+  i {
+    font-size: 2em;
+    color: $purple-lightest;
+    &:hover {
+      color: $purple-light;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,0BAA2B;EACzB,gBAAgB,ECEL,OAAsB;EDDjC,gBAAgB,EAAE,iCAAyC;EAC3D,MAAM,EAAE,iBAAsB;EAC9B,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,iBAAoB;EAChC,4CAAQ;IACN,MAAM,EAAE,iBAAsB;IAC9B,KAAK,ECTD,KAAgB;EDWtB,gGAAiB;IACf,gBAAgB,ECTN,OAAmB;IDU7B,MAAM,EAAE,iBAAqB;IAC7B,KAAK,ECbD,KAAsB",
-"sources": ["sass/main.scss","sass/_variables.scss"],
-"names": [],
-"file": "main.css"
-}

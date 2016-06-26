@@ -4,8 +4,8 @@ import {render} from 'react-dom';
 class SafetyCheckInstructions extends React.Component {
   render () {
     return (
-      <div>
-        <h1>How to use</h1>
+      <div className="safety-check-instructions">
+        <h2>How to use</h2>
         <ul>
           <li>Select the option that best describes how you feel. If you have selected the wrong option, select 'Reset scores' (be aware that this resets all scores, so voting must start again.)</li>
           <li>Select 'Pass it on', which will hide the option you selected.</li>

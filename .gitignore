@@ -1,1 +1,5 @@
 /node_modules/
+.sass-cache/
+/src/client/public/js/*.bundle.js
+/src/css/*.css
+/src/css/*.css.map

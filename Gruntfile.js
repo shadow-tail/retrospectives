@@ -20,6 +20,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'src/css/main.css' : 'src/css/sass/main.scss',
+          'src/css/navigation.css' : 'src/css/sass/navigation.scss',
           'src/css/safety.css' : 'src/css/sass/safety.scss'
         }
       }
