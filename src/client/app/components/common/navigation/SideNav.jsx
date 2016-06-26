@@ -6,13 +6,13 @@ class SideNav extends React.Component {
     return (
       <div id="nav-bar">
         <p className="nav-title">AGILE</p>
-        <button class="btn btn-primary">Start a Retrospective</button>
-        <button class="btn btn-primary">How it Works</button>
-        <button class="btn btn-primary">Resources</button>
+        <button className="btn btn-primary">Start a Retrospective</button>
+        <button className="btn btn-primary">How it Works</button>
+        <button className="btn btn-primary">Resources</button>
 
         <p className="nav-title">SHADOWTAIL</p>
-        <button class="btn btn-primary">About</button>
-        <button class="btn btn-primary">Contact</button>
+        <button className="btn btn-primary">About</button>
+        <button className="btn btn-primary">Contact</button>
       </div>
     );
   }
