@@ -7,7 +7,8 @@ var APP_DIR = path.resolve(__dirname, 'src/client/app');
 var config = {
   entry: {
     index: APP_DIR + '/components/index/Index.jsx',
-    contact: APP_DIR + '/components/contact/Contact.jsx'
+    contact: APP_DIR + '/components/contact/Contact.jsx',
+    safety: APP_DIR + '/components/safety/Safety.jsx'
   },
   output: {
     path: BUILD_DIR,
