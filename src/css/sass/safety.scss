@@ -1,0 +1,14 @@
+@import "variables";
+
+html, body, #app, .site-container, .body-col, .nav-col { height: 100%; }
+body {
+	background-image: url("../img/dots.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body-col {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.site-container { margin: 0; }

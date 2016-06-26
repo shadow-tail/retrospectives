@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,sDAAuD;EAAE,MAAM,EAAE,IAAI;;AACrE,IAAK;EACJ,gBAAgB,EAAE,sBAAsB;EACvC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;;AAG9B,SAAU;EACT,UAAU,EAAE,wBAAwB;;AAGrC,eAAgB;EAAE,MAAM,EAAE,CAAC",
+"sources": ["sass/safety.scss"],
+"names": [],
+"file": "safety.css"
+}
